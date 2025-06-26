@@ -1,0 +1,42 @@
+footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: left;
+
+	padding: var(--padding);
+	
+	background-color: #f8f9fa;
+	border-top: 1px solid #dee2e6;
+
+	color: #666;
+
+
+	> .links {
+		margin-bottom: 2px;
+
+		> a {
+			margin-right: 10px;
+
+			font-size: 14px;
+			color: #666;
+			text-decoration: none;
+
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+	
+	> .info {
+		margin-top: 2px;
+
+		> span {
+			font-size: 12px;
+
+			> .title {
+				font-weight: bold;
+			}
+		}
+	}
+}
