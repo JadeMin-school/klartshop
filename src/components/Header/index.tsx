@@ -4,6 +4,8 @@ import {
 	faCartShopping, faMagnifyingGlass, faBars, faUser
 } from '@fortawesome/free-solid-svg-icons';
 
+import Logo from "../../assets/logo.png";
+
 import "./index.css";
 
 
@@ -16,7 +18,7 @@ export default function Header({ showSearchModal }: Props) {
 		<header>
 			<div className="left">
 				<Link to="/" className="logo">
-					<img src="/logo.png" alt="Logo"/>
+					<img src={Logo} alt="Logo"/>
 				</Link>
 			</div>
 			<div className="right">

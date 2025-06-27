@@ -6,20 +6,28 @@ footer {
 
 	padding: var(--padding);
 	
-	background-color: #f8f9fa;
-	border-top: 1px solid #dee2e6;
+	background-color: var(--brand-color);
+	border-top: 1px solid var(--border-color);
 
 	color: #666;
 
 
 	> .links {
-		margin-bottom: 2px;
+		display: flex;
+		justify-content: left;
+		align-items: center;
+		
+		margin-bottom: 4px;
 
 		> a {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
 			margin-right: 10px;
 
 			font-size: 14px;
-			color: #666;
+			color: var(--subbrand-color);
 			text-decoration: none;
 
 			&:hover {
@@ -27,15 +35,29 @@ footer {
 			}
 		}
 	}
-	
+
 	> .info {
-		margin-top: 2px;
+		display: flex;
+		flex-direction: row;
+		justify-content: left;
+		align-items: center;
+		flex-wrap: wrap;
+
+		width: 700px;
+		
+		gap: 0 18px;
+
+		font-size: 12px;
 
 		> span {
-			font-size: 12px;
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			align-items: center;
 
 			> .title {
 				font-weight: bold;
+				margin-right: 4px;
 			}
 		}
 	}

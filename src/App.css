@@ -1,7 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap");
 
 html {
-	--padding: 10px 30px;
+	--padding: 12px 30px;
+	--brand-color: #f8f9fa;
+	--subbrand-color: #666;
+	--border-color: #dee2e6;
 }
 
 * {
