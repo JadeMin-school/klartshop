@@ -1,0 +1,68 @@
+{
+	"404.title": "페이지를 찾을 수 없습니다.",
+	"404.message": "죄송합니다, 요청하신 페이지를 찾을 수 없습니다. URL이 올바른지 확인 후 다시 시도해 주세요.",
+	
+	"home.title": "Welcome to Klart#",
+	"home.message": "<p>Your one-stop shop for all your needs.</p><p>Explore our products and enjoy a seamless shopping experience.</p><p>Stay tuned for exciting updates and offers!</p>",
+
+	"my.page.title": "{username}님, 환영합니다!",
+	"my.page.description": "",
+
+	"category.foundItems": "Found {count} items in this category.",
+	"category.noItems": "No items found in this category.",
+
+	"modal.login.title": "Sign In",
+	"modal.login.username": "USERNAME",
+	"modal.login.password": "PASSWORD",
+	
+	"modal.my.title": "MY",
+	"modal.my.page": "My Page",
+	"modal.my.logout": "Logout",
+	
+	"modal.cart.title": "CART",
+	"modal.cart.empty": "장바구니가 비어 있습니다.",
+	"modal.cart.checkout": "결제",
+	"modal.cart.clear": "장바구니 비우기",
+
+	"modal.search.title": "SEARCH",
+	"modal.search.placeholder": "검색어를 입력하시고 엔터를 누르세요.",
+	"modal.search.description": "Enter keywords and press Return to search.",
+
+	"modal.languages.title": "LANGUAGES",
+	"modal.languages.description": "원하는 언어를 선택하세요.",
+
+	"modal.category.title": "CATEGORY",
+	"modal.category.all": "ALL",
+	"modal.category.outer": "OUTER",
+	"modal.category.top": "TOP",
+	"modal.category.bottom": "BOTTOM",
+	"modal.category.accessories": "ACC",
+
+
+	"footer.agreements.title": "Agreements",
+	"footer.agreements.content": "",
+
+	"footer.privacy.title": "Privacy",
+	"footer.privacy.content": "",
+
+	"footer.guide.title": "Guide",
+	"footer.guide.content": "",
+
+	"footer.ceo.title": "CEO",
+	"footer.ceo.content": "하츠네",
+
+	"footer.address.title": "Address",
+	"footer.address.content": "인천광역시 부평구 무네미로 448번길 56 (우 21417)",
+
+	"footer.businessNumber.title": "Business License",
+	"footer.businessNumber.content": "3939-0831-01",
+
+	"footer.email.title": "Email",
+	"footer.email.content": "reactProject01@gmail.com",
+
+	"footer.telephone.title": "Tel",
+	"footer.telephone.content": "010-0831-3939",
+
+	"footer.license.title": "License",
+	"footer.license.content": "&copy; 2023 KlartShop. All rights reserved."
+}

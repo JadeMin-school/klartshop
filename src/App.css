@@ -1,18 +1,52 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap");
 
 html {
-	--padding: 12px 30px;
+	--padding-tb: 12px;
+	--padding-lr: 30px;
 	--brand-color: #f8f9fa;
 	--subbrand-color: #666;
 	--border-color: #dee2e6;
 }
 
 * {
-	font-family: "Noto Sans KR", sans-serif;
+	font-family: "Noto Sans KR";
 }
 
+
+html, body, #root {
+	display: flex;
+	flex-direction: column;
+	
+	height: 100%;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	padding: 0;
+}
 
 body {
 	margin: 0;
 	padding: 0;
+
+	div#root {
+		background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("/src/assets/logo.png");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 30%;
+
+		> main {
+			margin: var(--padding-tb) var(--padding-lr);
+		}
+	}
 }
+
+/* 552812839996-7r0bgm0i1n4p3qcmmjp8aaconpn34u10.apps.googleusercontent.com */
+/* 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 */

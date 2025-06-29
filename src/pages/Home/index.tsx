@@ -1,14 +1,14 @@
+import t from "../../i18n";
+
 import "./index.css";
 
 
 
 export default function Home() {
 	return (
-		<main>
-			<h1>Welcome to Klart#</h1>
-			<p>Your one-stop solution for all your needs.</p>
-			<p>Explore our features and services.</p>
-			<p>Contact us for more information.</p>
+		<main className="home">
+			<h1>{ t("home.title") }</h1>
+			{ t("home.message") }
 		</main>
 	);
 }

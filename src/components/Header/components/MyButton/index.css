@@ -1,0 +1,51 @@
+.modal-login > .content > .body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	> form {
+		width: 100%;
+
+		> label {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+
+			> input {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+
+				margin-bottom: 12px;
+				padding: 8px;
+
+				width: 100%;
+
+				border: 1px solid var(--border-color);
+				border-radius: 8px;
+
+				font-size: 18px;
+
+				outline: none;
+			}
+
+			> input[type="submit"] {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				
+				padding: 10px;
+				cursor: pointer;
+			}
+		}
+	}
+}
+
+.modal-my > .content > .body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}

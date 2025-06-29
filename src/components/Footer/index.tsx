@@ -1,3 +1,7 @@
+import { Link } from 'react-router-dom';
+
+import t from "../../i18n";
+
 import "./index.css";
 
 
@@ -6,33 +10,33 @@ export default function Footer() {
 	return (
 		<footer>
 			<div className="links">
-				<a href="/agreements">Agreements</a>
-				<a href="/privacy">Privacy</a>
-				<a href="/guide">Guide</a>
+				<Link to="/agreements">{ t("footer.agreements.title") }</Link>
+				<Link to="/privacy">{ t("footer.privacy.title") }</Link>
+				<Link to="/guide">{ t("footer.guide.title") }</Link>
 			</div>
 			<div className="info">
 				<span className="ceo">
-					<span className="title">Klart# CEO </span>
-					하츠네
+					<span className="title">{ t("footer.ceo.title") }</span>
+					{ t("footer.ceo.content") }
 				</span>
 				<span className="address">
-					<span className="title">Address </span>
-					인천광역시 부평구 무네미로 448번길 56 (우 21417)
+					<span className="title">{ t("footer.address.title") }</span>
+					{ t("footer.address.content") }
 				</span>
 				<span className="business">
-					<span className="title">Business License </span>
-					3939-0831-01
+					<span className="title">{ t("footer.businessNumber.title") }</span>
+					{ t("footer.businessNumber.content") }
 				</span>
 				<span className="email">
-					<span className="title">Email </span>
-					reactProject0831@gmail.com
+					<span className="title">{ t("footer.email.title") }</span>
+					{ t("footer.email.content") }
 				</span>
 				<span className="telephone">
-					<span className="title">Telephone </span>
-					010-0831-3939
+					<span className="title">{ t("footer.telephone.title") }</span>
+					{ t("footer.telephone.content") }
 				</span>
 				<span className="license">
-					<span className="title">License </span>
+					<span className="title">{ t("footer.license.title") }</span>
 					&copy; 2025 hatsune. All rights reserved.
 				</span>
 			</div>

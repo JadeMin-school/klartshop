@@ -13,9 +13,9 @@ export default function Search() {
 
 
 	return (
-		<div className="search">
+		<main className="search">
 			<h1>Search Page</h1>
 			<p>Your query is : { query.q }</p>
-		</div>
+		</main>
 	);
 }

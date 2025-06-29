@@ -1,0 +1,28 @@
+.modal-cart > .content > .body {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+
+	width: 100%;
+	height: 100%;
+
+	> .items {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+		gap: 12px;
+
+		width: 100%;
+	}
+
+	> .actions {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+
+		width: 100%;
+	}
+}

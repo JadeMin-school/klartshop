@@ -1,0 +1,42 @@
+.modal-lang > .content > .body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	.langs {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		gap: 4px;
+
+		width: 80%;
+
+		button {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+			height: 50px;
+
+			border: 1px solid var(--border-color);
+			border-radius: 4px;
+
+			font-size: 18px;
+
+			outline: none;
+
+			cursor: pointer;
+
+			&:hover {
+				background-color: var(--subbrand-color);
+			}
+
+			> img {
+				width: 60px;
+			}
+		}
+	}
+}
