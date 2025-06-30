@@ -36,7 +36,7 @@
 	"modal.cart.title": "CART",
 	"modal.cart.empty": "장바구니가 비어 있습니다.",
 	"modal.cart.checkout": "결제",
-	"modal.cart.clear": "장바구니 비우기",
+	"modal.cart.clear": "비우기",
 
 	"modal.search.title": "SEARCH",
 	"modal.search.placeholder": "검색어를 입력하시고 엔터를 누르세요.",

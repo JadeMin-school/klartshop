@@ -11,13 +11,13 @@ import { changeLanguage } from "../../../../i18n";
 
 import { Modal } from "../../../Modal";
 
-import t from "../../../../i18n";
-
 import KoreaFlag from "../../../../assets/flags/korea.webp";
 import JapanFlag from "../../../../assets/flags/japan.png";
 import ChinaFlag from "../../../../assets/flags/china.png";
 import USAFlag from "../../../../assets/flags/usa.png";
 import FranceFlag from "../../../../assets/flags/france.png";
+
+import t from "../../../../i18n";
 
 import "./index.css";
 

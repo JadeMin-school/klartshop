@@ -1,4 +1,5 @@
 import type { CartItem } from "../../../../@types/Item.d.ts";
+import type { Address } from "../../../../@types/Address.ts";
 
 import { useState, useEffect } from 'react';
 import { FontAwesomeIcon as FA } from '@fortawesome/react-fontawesome';
@@ -20,6 +21,10 @@ export default function CartButton() {
 	const getCartItems = () => {
 		return JSON.parse(localStorage.getItem("cartItems") || "[]") as CartItem[];
 	};
+	const getAddresses = () => {
+		return JSON.parse(localStorage.getItem("addresses") || "[]") as Address[];
+	};
+
 
 	return (
 		<>
@@ -56,6 +61,9 @@ export default function CartButton() {
 							>
 								{ t("modal.cart.checkout").toString() }
 							</button>
+							<span className="total">
+								${ getCartItems().reduce((acc, item) => acc + item.price * item.quantity, 0).toFixed(2) }
+							</span>
 							<button
 								onClick={() => {
 									localStorage.removeItem("cartItems");

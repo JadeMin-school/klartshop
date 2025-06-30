@@ -16,17 +16,19 @@ export default function My() {
 	const [selected, setSelected] = useState("default");
 
 	const username = localStorage.getItem("username")!;
-	const addresses = JSON.parse(localStorage.getItem("addresses") || "[]") as Address[];
 
+	const getAddresses = () => {
+		return JSON.parse(localStorage.getItem("addresses") || "[]") as Address[];
+	}
 	const onSubmit: FormEventHandler<HTMLFormElement> = (e) => {
 		e.preventDefault();
 
-		addresses.push({
-			id: `${addresses.length + 1}`,
+		getAddresses().push({
+			id: `${getAddresses().length + 1}`,
 			street: e.currentTarget.street.value as string,
 			detail: e.currentTarget.detail.value as string,
 		} satisfies Address);
-		localStorage.setItem("addresses", JSON.stringify(addresses));
+		localStorage.setItem("addresses", JSON.stringify(getAddresses()));
 
 		setModal(false);
 	};
@@ -50,7 +52,7 @@ export default function My() {
 				<option value="default" hidden>
 					{ t("my.page.address.placeholder").toString() }
 				</option>
-				{addresses.map((addr) => (
+				{getAddresses().map(addr => (
 					<option key={addr.id} value={addr.id}>
 						{`${addr.street}, ${addr.detail}`}
 					</option>
@@ -67,11 +69,11 @@ export default function My() {
 					className="delete"
 					disabled={selected === "default"}
 					onClick={() => {
-						addresses.splice(
-							addresses.findIndex(addr => addr.id === selected),
+						getAddresses().splice(
+							getAddresses().findIndex(addr => addr.id === selected),
 							1
 						);
-						localStorage.setItem("addresses", JSON.stringify(addresses));
+						localStorage.setItem("addresses", JSON.stringify(getAddresses()));
 						setSelected("default");
 					}}
 				>
