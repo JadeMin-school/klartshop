@@ -13,11 +13,11 @@ import { Modal } from "../../../Modal";
 
 import t from "../../../../i18n";
 
-import KoreaFlag from "/src/assets/flags/korea.webp";
-import JapanFlag from "/src/assets/flags/japan.png";
-import ChinaFlag from "/src/assets/flags/china.png";
-import USAFlag from "/src/assets/flags/usa.png";
-import FranceFlag from "/src/assets/flags/france.png";
+import KoreaFlag from "../../../../assets/flags/korea.webp";
+import JapanFlag from "../../../../assets/flags/japan.png";
+import ChinaFlag from "../../../../assets/flags/china.png";
+import USAFlag from "../../../../assets/flags/usa.png";
+import FranceFlag from "../../../../assets/flags/france.png";
 
 import "./index.css";
 
