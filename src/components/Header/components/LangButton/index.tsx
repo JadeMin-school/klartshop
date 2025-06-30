@@ -13,6 +13,12 @@ import { Modal } from "../../../Modal";
 
 import t from "../../../../i18n";
 
+import KoreaFlag from "/src/assets/flags/korea.webp";
+import JapanFlag from "/src/assets/flags/japan.png";
+import ChinaFlag from "/src/assets/flags/china.png";
+import USAFlag from "/src/assets/flags/usa.png";
+import FranceFlag from "/src/assets/flags/france.png";
+
 import "./index.css";
 
 
@@ -43,27 +49,27 @@ export default function LangButton() {
 						<button
 							onClick={() => onChangeLang("ko-KR")}
 						>
-							<img src="/src/assets/flags/korea.webp" alt="Korean"/>
+							<img src={KoreaFlag} alt="Korean"/>
 						</button>
 						<button
 							onClick={() => onChangeLang("ja-JP")}
 						>
-							<img src="/src/assets/flags/japan.png" alt="Japanese"/>
+							<img src={JapanFlag} alt="Japanese"/>
 						</button>
 						<button
 							onClick={() => onChangeLang("zh-CN")}
 						>
-							<img src="/src/assets/flags/china.png" alt="Chinese"/>
+							<img src={ChinaFlag} alt="Chinese"/>
 						</button>
 						<button
 							onClick={() => onChangeLang("en-US")}
 						>
-							<img src="/src/assets/flags/usa.png" alt="English"/>
+							<img src={USAFlag} alt="English"/>
 						</button>
 						<button
 							onClick={() => onChangeLang("fr-FR")}
 						>
-							<img src="/src/assets/flags/france.png" alt="French"/>
+							<img src={FranceFlag} alt="French"/>
 						</button>
 					</div>
 				</>
