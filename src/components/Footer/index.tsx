@@ -16,23 +16,33 @@ export default function Footer() {
 			</div>
 			<div className="info">
 				<span className="ceo">
-					<span className="title">{ t("footer.ceo.title") }</span>
+					<span className="title">
+						{ t("footer.ceo.title") }
+					</span>
 					{ t("footer.ceo.content") }
 				</span>
 				<span className="address">
-					<span className="title">{ t("footer.address.title") }</span>
+					<span className="title">
+						{ t("footer.address.title") }
+					</span>
 					{ t("footer.address.content") }
 				</span>
 				<span className="business">
-					<span className="title">{ t("footer.businessNumber.title") }</span>
+					<span className="title">
+						{ t("footer.businessNumber.title") }
+					</span>
 					{ t("footer.businessNumber.content") }
 				</span>
 				<span className="email">
-					<span className="title">{ t("footer.email.title") }</span>
+					<span className="title">
+						{ t("footer.email.title") }
+					</span>
 					{ t("footer.email.content") }
 				</span>
 				<span className="telephone">
-					<span className="title">{ t("footer.telephone.title") }</span>
+					<span className="title">
+						{ t("footer.telephone.title") }
+					</span>
 					{ t("footer.telephone.content") }
 				</span>
 				<span className="license">

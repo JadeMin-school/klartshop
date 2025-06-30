@@ -1,3 +1,82 @@
 {
-	"dummy": "Lorem Ipsum"
+	"404.title": "Page non trouvée",
+	"404.message": "Désolé, la page que vous avez demandée est introuvable. Veuillez vérifier l'URL et réessayer.",
+
+	"home.title": "Bienvenue sur Klart#",
+	"home.message": "<p>Votre boutique unique pour tous vos besoins.</p><p>Découvrez nos produits et profitez d'une expérience d'achat fluide.</p><p>Restez à l'écoute pour des mises à jour et des offres passionnantes !</p>",
+
+	"my.page.title": "Bienvenue, {username} !",
+	"my.page.message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+	"my.page.address.title": "Gérer les adresses",
+	"my.page.address.placeholder": "Sélectionner une adresse",
+	"my.page.address.add": "Ajouter une adresse",
+	"my.page.address.delete": "Supprimer l'adresse",
+
+	"category.foundItems": "{count} articles trouvés dans cette catégorie.",
+	"category.noItems": "Aucun article trouvé dans cette catégorie.",
+	
+	"search.title": "Résultats de recherche",
+	"search.foundItems": "Résultats de recherche pour \"{query}\". ({count} articles trouvés)",
+	"search.noResults": "Aucun résultat.",
+
+
+	"modal.login.title": "Connexion",
+	"modal.login.username": "NOM D'UTILISATEUR",
+	"modal.login.password": "MOT DE PASSE",
+	
+	"modal.my.title": "MON",
+	"modal.my.page": "Ma page",
+	"modal.my.logout": "Déconnexion",
+
+	"modal.my.address.title": "AJOUTEZ VOTRE ADRESSE",
+	"modal.my.address.street": "Rue",
+	"modal.my.address.detail": "Adresse détaillée",
+	"modal.my.address.add": "Ajouter",
+	
+	"modal.cart.title": "PANIER",
+	"modal.cart.empty": "Votre panier est vide.",
+	"modal.cart.checkout": "Commander",
+	"modal.cart.clear": "Vider le panier",
+
+	"modal.search.title": "RECHERCHE",
+	"modal.search.placeholder": "Entrez votre terme de recherche et appuyez sur Entrée.",
+	"modal.search.description": "Entrez des mots-clés et appuyez sur Retour pour rechercher.",
+
+	"modal.languages.title": "LANGUES",
+	"modal.languages.description": "Veuillez sélectionner votre langue préférée.",
+
+	"modal.category.title": "CATÉGORIE",
+	"modal.category.all": "TOUT",
+	"modal.category.outer": "VESTE",
+	"modal.category.top": "HAUT",
+	"modal.category.bottom": "BAS",
+	"modal.category.accessories": "ACC",
+
+	
+	"footer.agreements.title": "Accords",
+	"footer.agreements.content": "",
+
+	"footer.privacy.title": "Confidentialité",
+	"footer.privacy.content": "",
+
+	"footer.guide.title": "Guide",
+	"footer.guide.content": "",
+
+	"footer.ceo.title": "PDG",
+	"footer.ceo.content": "Hatsune",
+
+	"footer.address.title": "Adresse",
+	"footer.address.content": "56, Munemi-ro 448beon-gil, Bupyeong-gu, Incheon, 21417",
+
+	"footer.businessNumber.title": "Numéro d'entreprise",
+	"footer.businessNumber.content": "3939-0831-01",
+
+	"footer.email.title": "Email",
+	"footer.email.content": "reactProject01@gmail.com",
+
+	"footer.telephone.title": "Tél",
+	"footer.telephone.content": "010-0831-3939",
+
+	"footer.license.title": "Licence",
+	"footer.license.content": "&copy; 2023 KlartShop. Tous droits réservés."
 }

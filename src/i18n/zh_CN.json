@@ -1,3 +1,82 @@
 {
-	"dummy": "Lorem Ipsum"
+	"404.title": "页面未找到",
+	"404.message": "抱歉，您请求的页面无法找到。请检查网址后重试。",
+
+	"home.title": "欢迎来到 Klart#",
+	"home.message": "<p>您的全方位购物平台。</p><p>探索我们的产品，享受无缝购物体验。</p><p>敬请期待精彩更新和优惠！</p>",
+
+	"my.page.title": "欢迎, {username}！",
+	"my.page.message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+	"my.page.address.title": "管理地址",
+	"my.page.address.placeholder": "选择地址",
+	"my.page.address.add": "添加地址",
+	"my.page.address.delete": "删除地址",
+
+	"category.foundItems": "在此类别中找到 {count} 件商品。",
+	"category.noItems": "此类别中未找到商品。",
+
+	"search.title": "搜索结果",
+	"search.foundItems": "“{query}”的搜索结果。（共找到 {count} 件）",
+	"search.noResults": "无结果。",
+
+
+	"modal.login.title": "登录",
+	"modal.login.username": "用户名",
+	"modal.login.password": "密码",
+
+	"modal.my.title": "我的",
+	"modal.my.page": "我的页面",
+	"modal.my.logout": "退出登录",
+
+	"modal.my.address.title": "添加您的地址",
+	"modal.my.address.street": "街道",
+	"modal.my.address.detail": "详细地址",
+	"modal.my.address.add": "添加",
+
+	"modal.cart.title": "购物车",
+	"modal.cart.empty": "您的购物车为空。",
+	"modal.cart.checkout": "结账",
+	"modal.cart.clear": "清空购物车",
+
+	"modal.search.title": "搜索",
+	"modal.search.placeholder": "输入搜索词并按回车。",
+	"modal.search.description": "输入关键词并按回车进行搜索。",
+
+	"modal.languages.title": "语言",
+	"modal.languages.description": "请选择您偏好的语言。",
+
+	"modal.category.title": "类别",
+	"modal.category.all": "全部",
+	"modal.category.outer": "外套",
+	"modal.category.top": "上衣",
+	"modal.category.bottom": "下装",
+	"modal.category.accessories": "配饰",
+
+	
+	"footer.agreements.title": "协议",
+	"footer.agreements.content": "",
+
+	"footer.privacy.title": "隐私",
+	"footer.privacy.content": "",
+
+	"footer.guide.title": "指南",
+	"footer.guide.content": "",
+
+	"footer.ceo.title": "首席执行官",
+	"footer.ceo.content": "Hatsune",
+
+	"footer.address.title": "地址",
+	"footer.address.content": "仁川市富平区文义路448街56号，邮编21417",
+
+	"footer.businessNumber.title": "营业执照",
+	"footer.businessNumber.content": "3939-0831-01",
+
+	"footer.email.title": "邮箱",
+	"footer.email.content": "reactProject01@gmail.com",
+
+	"footer.telephone.title": "电话",
+	"footer.telephone.content": "010-0831-3939",
+
+	"footer.license.title": "版权",
+	"footer.license.content": "&copy; 2023 KlartShop. 保留所有权利。"
 }

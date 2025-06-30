@@ -16,6 +16,8 @@ import "./index.css";
 
 
 
+
+
 export default function Category() {
 	const { category } = useParams<{ category?: Categories }>();
 

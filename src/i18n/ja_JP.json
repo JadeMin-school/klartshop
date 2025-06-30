@@ -1,3 +1,82 @@
 {
-	"dummy": "Lorem Ipsum"
+	"404.title": "ページが見つかりません。",
+	"404.message": "申し訳ありませんが、ご指定のページが見つかりません。URLが正しいかご確認の上、再度お試しください。",
+
+	"home.title": "Klart#へようこそ",
+	"home.message": "<p>あなたのためのワンストップショップ。</p><p>商品を探して、快適なショッピング体験をお楽しみください。</p><p>今後のアップデートやお得な情報もお見逃しなく！</p>",
+
+	"my.page.title": "{username}さん、ようこそ！",
+	"my.page.message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+	"my.page.address.title": "配送先管理",
+	"my.page.address.placeholder": "配送先を選択",
+	"my.page.address.add": "配送先を追加",
+	"my.page.address.delete": "配送先を削除",
+
+	"category.foundItems": "このカテゴリで{count}件の商品が見つかりました。",
+	"category.noItems": "このカテゴリには商品がありません。",
+
+	"search.title": "検索結果",
+	"search.foundItems": "\"{query}\"の検索結果（{count}件）",
+	"search.noResults": "結果がありません。",
+
+
+	"modal.login.title": "サインイン",
+	"modal.login.username": "ユーザー名",
+	"modal.login.password": "パスワード",
+
+	"modal.my.title": "マイページ",
+	"modal.my.page": "マイページ",
+	"modal.my.logout": "ログアウト",
+
+	"modal.my.address.title": "配送先を追加",
+	"modal.my.address.street": "通り名",
+	"modal.my.address.detail": "詳細住所",
+	"modal.my.address.add": "追加",
+
+	"modal.cart.title": "カート",
+	"modal.cart.empty": "カートが空です。",
+	"modal.cart.checkout": "決済",
+	"modal.cart.clear": "カートを空にする",
+
+	"modal.search.title": "検索",
+	"modal.search.placeholder": "キーワードを入力してエンターを押してください。",
+	"modal.search.description": "キーワードを入力し、リターンキーで検索します。",
+
+	"modal.languages.title": "言語",
+	"modal.languages.description": "ご希望の言語を選択してください。",
+
+	"modal.category.title": "カテゴリ",
+	"modal.category.all": "すべて",
+	"modal.category.outer": "アウター",
+	"modal.category.top": "トップス",
+	"modal.category.bottom": "ボトムス",
+	"modal.category.accessories": "アクセサリー",
+
+	
+	"footer.agreements.title": "利用規約",
+	"footer.agreements.content": "",
+
+	"footer.privacy.title": "プライバシー",
+	"footer.privacy.content": "",
+
+	"footer.guide.title": "ガイド",
+	"footer.guide.content": "",
+
+	"footer.ceo.title": "代表",
+	"footer.ceo.content": "初音",
+
+	"footer.address.title": "住所",
+	"footer.address.content": "仁川広域市 富平区 ムネミ路448番ギル56（郵便番号21417）",
+
+	"footer.businessNumber.title": "事業者登録番号",
+	"footer.businessNumber.content": "3939-0831-01",
+
+	"footer.email.title": "メール",
+	"footer.email.content": "reactProject01@gmail.com",
+
+	"footer.telephone.title": "電話",
+	"footer.telephone.content": "010-0831-3939",
+
+	"footer.license.title": "ライセンス",
+	"footer.license.content": "&copy; 2023 KlartShop. All rights reserved."
 }

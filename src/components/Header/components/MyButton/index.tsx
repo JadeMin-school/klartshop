@@ -83,7 +83,7 @@ export default function MyButton() {
 				state={[loginModal, setLoginModal]}
 				title={t("modal.login.title").toString()}
 			>
-				<form action="#" onSubmit={onSubmit}>
+				<form onSubmit={onSubmit}>
 					<label>
 						{ t("modal.login.username").toString() }
 						<input
@@ -91,6 +91,7 @@ export default function MyButton() {
 							name="username"
 							value={user.username}
 							onChange={onChangeUser}
+							required
 						/>
 					</label>
 					<label>
@@ -100,6 +101,7 @@ export default function MyButton() {
 							name="password"
 							value={user.password}
 							onChange={onChangeUser}
+							required
 						/>
 					</label>
 					<label>

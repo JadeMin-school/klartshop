@@ -1,3 +1,82 @@
 {
-	"dummy": "Lorem Ipsum"
+	"404.title": "Page Not Found",
+	"404.message": "Sorry, the page you requested could not be found. Please check the URL and try again.",
+
+	"home.title": "Welcome to Klart#",
+	"home.message": "<p>Your one-stop shop for all your needs.</p><p>Explore our products and enjoy a seamless shopping experience.</p><p>Stay tuned for exciting updates and offers!</p>",
+
+	"my.page.title": "Welcome, {username}!",
+	"my.page.message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+	"my.page.address.title": "Manage Addresses",
+	"my.page.address.placeholder": "Select Address",
+	"my.page.address.add": "Add Address",
+	"my.page.address.delete": "Delete Address",
+
+	"category.foundItems": "Found {count} items in this category.",
+	"category.noItems": "No items found in this category.",
+	
+	"search.title": "Search results",
+	"search.foundItems": "Search results for \"{query}\". ({count} items found)",
+	"search.noResults": "No results.",
+
+
+	"modal.login.title": "Sign In",
+	"modal.login.username": "USERNAME",
+	"modal.login.password": "PASSWORD",
+	
+	"modal.my.title": "MY",
+	"modal.my.page": "My Page",
+	"modal.my.logout": "Logout",
+
+	"modal.my.address.title": "ADD YOUR ADDRESS",
+	"modal.my.address.street": "Street",
+	"modal.my.address.detail": "Detail Address",
+	"modal.my.address.add": "Add",
+	
+	"modal.cart.title": "CART",
+	"modal.cart.empty": "Your cart is empty.",
+	"modal.cart.checkout": "Checkout",
+	"modal.cart.clear": "Clear Cart",
+
+	"modal.search.title": "SEARCH",
+	"modal.search.placeholder": "Enter your search term and press Enter.",
+	"modal.search.description": "Enter keywords and press Return to search.",
+
+	"modal.languages.title": "LANGUAGES",
+	"modal.languages.description": "Please select your preferred language.",
+
+	"modal.category.title": "CATEGORY",
+	"modal.category.all": "ALL",
+	"modal.category.outer": "OUTER",
+	"modal.category.top": "TOP",
+	"modal.category.bottom": "BOTTOM",
+	"modal.category.accessories": "ACC",
+
+
+	"footer.agreements.title": "Agreements",
+	"footer.agreements.content": "",
+
+	"footer.privacy.title": "Privacy",
+	"footer.privacy.content": "",
+
+	"footer.guide.title": "Guide",
+	"footer.guide.content": "",
+
+	"footer.ceo.title": "CEO",
+	"footer.ceo.content": "Hatsune",
+
+	"footer.address.title": "Address",
+	"footer.address.content": "56, Munemi-ro 448beon-gil, Bupyeong-gu, Incheon, 21417",
+
+	"footer.businessNumber.title": "Business License",
+	"footer.businessNumber.content": "3939-0831-01",
+
+	"footer.email.title": "Email",
+	"footer.email.content": "reactProject01@gmail.com",
+
+	"footer.telephone.title": "Tel",
+	"footer.telephone.content": "010-0831-3939",
+
+	"footer.license.title": "License",
+	"footer.license.content": "&copy; 2023 KlartShop. All rights reserved."
 }
