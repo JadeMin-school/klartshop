@@ -39,7 +39,7 @@ footer {
 		align-items: center;
 		flex-wrap: wrap;
 
-		width: 700px;
+		max-width: 600px;
 		
 		gap: 0 18px;
 
