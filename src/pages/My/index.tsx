@@ -19,7 +19,7 @@ export default function My() {
 
 	const getAddresses = () => {
 		return JSON.parse(localStorage.getItem("addresses") || "[]") as Address[];
-	}
+	};
 	const onSubmit: FormEventHandler<HTMLFormElement> = (e) => {
 		e.preventDefault();
 

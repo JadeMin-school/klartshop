@@ -1,5 +1,5 @@
 import type { CartItem } from "../../../../@types/Item.d.ts";
-import type { Address } from "../../../../@types/Address.ts";
+import type { Address } from "../../../../@types/Address.d.ts";
 
 import { useState, useEffect } from 'react';
 import { FontAwesomeIcon as FA } from '@fortawesome/react-fontawesome';
