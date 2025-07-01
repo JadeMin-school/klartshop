@@ -1,4 +1,4 @@
-import type { FormEventHandler } from 'react';
+import type { MouseEventHandler, FormEventHandler } from 'react';
 import type { Address } from "../../@types/Address";
 
 import { useState } from 'react';
@@ -8,6 +8,7 @@ import { Modal } from "../../components/Modal";
 import t from "../../i18n";
 
 import "./index.css";
+import { config } from '@fortawesome/fontawesome-svg-core';
 
 
 
@@ -20,12 +21,24 @@ export default function My() {
 	const getAddresses = () => {
 		return JSON.parse(localStorage.getItem("addresses") || "[]") as Address[];
 	};
+	const onAdd: MouseEventHandler<HTMLButtonElement> = (e) => {
+		setModal(true);
+	};
+	const onDelete: MouseEventHandler<HTMLButtonElement> = () => {
+		const temp = getAddresses();
+		temp.splice(
+			temp.findIndex(addr => addr.id === selected),
+			1
+		);
+		localStorage.setItem("addresses", JSON.stringify(temp));
+		setSelected("default");
+	};
 	const onSubmit: FormEventHandler<HTMLFormElement> = (e) => {
 		e.preventDefault();
 
 		const temp = getAddresses();
 		temp.push({
-			id: `${getAddresses().length + 1}`,
+			id: `${temp.length + 1}`,
 			street: e.currentTarget.street.value as string,
 			detail: e.currentTarget.detail.value as string,
 		} satisfies Address);
@@ -62,21 +75,14 @@ export default function My() {
 			<div className="actions">
 				<button
 					className="add"
-					onClick={() => setModal(true)}
+					onClick={onAdd}
 				>
 					{ t("my.page.address.add").toString() }
 				</button>
 				<button
 					className="delete"
 					disabled={selected === "default"}
-					onClick={() => {
-						getAddresses().splice(
-							getAddresses().findIndex(addr => addr.id === selected),
-							1
-						);
-						localStorage.setItem("addresses", JSON.stringify(getAddresses()));
-						setSelected("default");
-					}}
+					onClick={onDelete}
 				>
 					{ t("my.page.address.delete").toString() }
 				</button>
