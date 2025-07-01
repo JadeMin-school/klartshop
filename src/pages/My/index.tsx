@@ -50,11 +50,11 @@ export default function My() {
 	return (
 		<main className="my">
 			<h1>
-				{ t("my.page.title", { username }).toString() }
+				{ t("my.page.title", { username }) }
 			</h1>
 			<hr/>
 			<h2>
-				{ t("my.page.address.title").toString() }
+				{ t("my.page.address.title") }
 			</h2>
 			<select
 				className="addresses"
@@ -63,7 +63,7 @@ export default function My() {
 				onChange={e => setSelected(e.target.value)}
 			>
 				<option value="default" hidden>
-					{ t("my.page.address.placeholder").toString() }
+					{ t("my.page.address.placeholder") }
 				</option>
 				{getAddresses().map(addr => (
 					<option key={addr.id} value={addr.id}>
@@ -76,14 +76,14 @@ export default function My() {
 					className="add"
 					onClick={onAdd}
 				>
-					{ t("my.page.address.add").toString() }
+					{ t("my.page.address.add") }
 				</button>
 				<button
 					className="delete"
 					disabled={selected === "default"}
 					onClick={onDelete}
 				>
-					{ t("my.page.address.delete").toString() }
+					{ t("my.page.address.delete") }
 				</button>
 			</div>
 			<Modal
@@ -93,7 +93,7 @@ export default function My() {
 			>
 				<form onSubmit={onSubmit}>
 					<label>
-						{ t("modal.my.address.street").toString() }
+						{ t("modal.my.address.street") }
 						<input
 							type="text"
 							name="street"
@@ -101,7 +101,7 @@ export default function My() {
 						/>
 					</label>
 					<label>
-						{ t("modal.my.address.detail").toString() }
+						{ t("modal.my.address.detail") }
 						<input
 							type="text"
 							name="detail"
@@ -110,7 +110,7 @@ export default function My() {
 					</label>
 					<label>
 						<button type="submit">
-							{ t("modal.my.address.add").toString() }
+							{ t("modal.my.address.add") }
 						</button>
 					</label>
 				</form>
