@@ -29,7 +29,7 @@ export default function LangButton() {
 
 	const onChangeLang = (lang: Languages) => {
 		changeLanguage(lang);
-		navigate(0);
+		navigate("/");
 	};
 
 
