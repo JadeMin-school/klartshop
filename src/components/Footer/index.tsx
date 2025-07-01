@@ -10,9 +10,15 @@ export default function Footer() {
 	return (
 		<footer>
 			<div className="links">
-				<Link to="/agreements">{ t("footer.agreements.title") }</Link>
-				<Link to="/privacy">{ t("footer.privacy.title") }</Link>
-				<Link to="/guide">{ t("footer.guide.title") }</Link>
+				<Link to="/agreements">
+					{ t("footer.agreements.title") }
+				</Link>
+				<Link to="/privacy">
+					{ t("footer.privacy.title") }
+				</Link>
+				<Link to="/guide">
+					{ t("footer.guide.title") }
+				</Link>
 			</div>
 			<div className="info">
 				<span className="ceo">
