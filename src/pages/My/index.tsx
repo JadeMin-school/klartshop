@@ -23,12 +23,13 @@ export default function My() {
 	const onSubmit: FormEventHandler<HTMLFormElement> = (e) => {
 		e.preventDefault();
 
-		getAddresses().push({
+		const temp = getAddresses();
+		temp.push({
 			id: `${getAddresses().length + 1}`,
 			street: e.currentTarget.street.value as string,
 			detail: e.currentTarget.detail.value as string,
 		} satisfies Address);
-		localStorage.setItem("addresses", JSON.stringify(getAddresses()));
+		localStorage.setItem("addresses", JSON.stringify(temp));
 
 		setModal(false);
 	};
