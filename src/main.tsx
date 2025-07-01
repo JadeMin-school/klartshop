@@ -7,7 +7,7 @@ import Router from "./App.tsx";
 
 
 
-const CLIENT_ID = import.meta.env.VITE_CLIENT_ID;
+const CLIENT_ID = import.meta.env.VITE_CLIENT_ID_GOOGLE;
 
 createRoot(document.getElementById("root")!).render(
 	<StrictMode>

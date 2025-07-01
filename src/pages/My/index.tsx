@@ -8,7 +8,6 @@ import { Modal } from "../../components/Modal";
 import t from "../../i18n";
 
 import "./index.css";
-import { config } from '@fortawesome/fontawesome-svg-core';
 
 
 
