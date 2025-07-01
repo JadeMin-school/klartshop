@@ -1,7 +1,6 @@
 import type { Languages } from "../../../../i18n";
 
 import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
 import { FontAwesomeIcon as FA } from '@fortawesome/react-fontawesome';
 import {
 	faGlobe,
@@ -25,11 +24,10 @@ import "./index.css";
 
 export default function LangButton() {
 	const [modal, setModal] = useState(false);
-	const navigate = useNavigate();
 
 	const onChangeLang = (lang: Languages) => {
 		changeLanguage(lang);
-		navigate("/");
+		location.reload();
 	};
 
 
